@@ -12,10 +12,10 @@ number = int(input('Введите число: '))
 result = my_list(number)
 
 def sumOfMylist(result):
-    sum = 0
+    summ = 0
     for i in range(len(result)):
-        sum += result[i]
-    return sum
+        summ += result[i]
+    return summ
  
 
 
